@@ -4,8 +4,6 @@ noncomputable section
 
 open Classical BigOperators Topology Set Filter MeasureTheory NNReal ENNReal ProbabilityTheory
 
---test change
-
 /-
 Declare variables and assign properties:
 - P and P' are measures on Ω, Ω', respectively, but for some results the image measures on E
@@ -206,7 +204,6 @@ theorem ident_distrib_iff_bounded_continuous
   rw [ident_distrib_iff]
   simp_rw [← lint _]
   rw [← measure_eq_iff_bounded_continuous]
-
 
 
 end Separating
